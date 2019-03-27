@@ -13,6 +13,8 @@
 
 >攻击者可以利用XSS漏洞来窃取包括用户身份信息在内的各种敏感信息、修改Web页面以欺骗用户，甚至控制受害者浏览器，或者和其他漏洞结合起来形成蠕虫攻击，等等。
 
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554275800&di=2dc473bee17dc4edfbde20d9450b131f&imgtype=jpg&er=1&src=http%3A%2F%2Fnew.51cto.com%2Ffiles%2Fuploadimg%2F20080415%2F1445300.gif) 
+
 ### 如何防御
 >防御XSS最佳的做法就是对数据进行严格的输入编码，使得攻击者提供的数据不再被浏览器认为是脚本而被误执行。例如`<script>`在进行HTML编码后变成了`&lt;script&gt;`，而这段数据就会被浏览器认为只是一段普通的字符串，而不会被当做脚本执行了。
 
@@ -68,6 +70,7 @@
 ![](http://dingyue.nosdn.127.net/ATRhfaXjirBjoVORe6TnQTlxoBWRdOrf9On3G07ccMgq01545803391120.jpeg) 
 ![](http://dingyue.nosdn.127.net/cUQYpeNqjqqjul9f1k38zvteHro55ylv8D5VfOTxEjWwa1545805415819.jpeg) 
 ![](http://dingyue.nosdn.127.net/faAVu73xi73K2BHbrQjsOwFVMV6XzeUiJFjMPsfCII5P91545803632813.jpeg) 
+![](http://dingyue.nosdn.127.net/03X4MLAdqtOZYBdI6CjMGctGWIAjVn8gcpMhf1BQi67q51545803640129.jpeg) 
 
 ### 如何防御
 >手动检查这些第三方代码有没有安全问题是个苦差事，主要是因为应用依赖的这些组件数量众多，手工检查太耗时，好在有自动化的工具可以使用，比如NSP(Node Security Platform)，Snyk等等。
