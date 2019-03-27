@@ -65,7 +65,9 @@
 ## 5、使用了不安全的框架、依赖包等
 >应用使用了第三方代码，不论应用自己的代码的安全性有多高，一旦这些来自第三方的代码有安全漏洞，那么对应用整体的安全性依然会造成严峻的挑战。（想起了2018年貌似圣诞节还是哪天的一个bug，多个网站用了同一个框架，而该框架一声不吭内置了个功能，在圣诞节当天按钮上方自动出现雪堆图案，简直狗血彩蛋，各公司纷纷半夜叫起各种程序员各种调各种八阿哥，奋战好几个小时，在第二天天亮之后，框架才发文承认对此次“恐怖”事件负责。。手动滑稽）
 
+![](http://dingyue.nosdn.127.net/ATRhfaXjirBjoVORe6TnQTlxoBWRdOrf9On3G07ccMgq01545803391120.jpeg) 
 ![](http://dingyue.nosdn.127.net/cUQYpeNqjqqjul9f1k38zvteHro55ylv8D5VfOTxEjWwa1545805415819.jpeg) 
+![](http://dingyue.nosdn.127.net/faAVu73xi73K2BHbrQjsOwFVMV6XzeUiJFjMPsfCII5P91545803632813.jpeg) 
 
 ### 如何防御
 >手动检查这些第三方代码有没有安全问题是个苦差事，主要是因为应用依赖的这些组件数量众多，手工检查太耗时，好在有自动化的工具可以使用，比如NSP(Node Security Platform)，Snyk等等。
