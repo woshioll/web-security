@@ -27,6 +27,8 @@
 
 >如果说iframe只是有可能会给用户体验带来影响，看似问题不大，那么iframe中的域名过期后被恶意攻击者抢注，或者第三方被黑客攻破，iframe中的内容被替换掉了，从而利用用户浏览器中的安全漏洞下载安装木马、恶意勒索软件等等，这问题可就大了。
 
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554275928&di=6b561d80aa567a0c2ba274fe30923b7f&imgtype=jpg&er=1&src=http%3A%2F%2Fup.2cto.com%2FArticle%2F200906%2F20090609002443961.jpg) 
+
 ### 如何防御
 >iframe有了一个叫做sandbox的安全属性，通过它可以对iframe的行为进行各种限制，充分实现“最小权限“原则。使用sandbox的最简单的方式就是只在iframe元素中添加上这个关键词就好，就像下面这样：
 ```javascript
